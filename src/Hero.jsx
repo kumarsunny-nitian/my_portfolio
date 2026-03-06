@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className="hero-buttons">
           <a
-            href="https://drive.google.com/uc?export=download&id=19_aS-zGAd9dxQRFc9TbV0T6TieVyLVzT"
+            href="https://drive.google.com/uc?export=download&id=1zfdfrJ1p3078M_VxW2B1ccSJXssOASDN"
             target="_blank"
             rel="noopener noreferrer"
             className="primary-btn"
