@@ -167,7 +167,6 @@ section {
 }
 
 .project-title {
-  color_toggle: #22D3EE;
   color: #22D3EE;
   font-weight: 700;
   font-size: 22px;
@@ -179,12 +178,50 @@ section {
   margin-bottom: 20px;
 }
 
+/* ================= PROJECT BUTTONS ================= */
+
 .project-buttons {
   display: flex;
   gap: 15px;
 }
 
-/* ================= SKILLS (FIXED RESPONSIVE) ================= */
+/* GitHub Button */
+
+.github-btn {
+  padding: 8px 16px;
+  border: 2px solid #22D3EE;
+  border-radius: 8px;
+  color: #22D3EE;
+  font-weight: 500;
+  transition: 0.3s ease;
+  box-shadow: 0 0 5px #22D3EE;
+}
+
+.github-btn:hover {
+  background: #22D3EE;
+  color: #0B0F14;
+  box-shadow: 0 0 10px #22D3EE, 0 0 20px #22D3EE;
+}
+
+/* Live Demo Button */
+
+.live-btn {
+  padding: 8px 16px;
+  border: 2px solid #A855F7;
+  border-radius: 8px;
+  color: #A855F7;
+  font-weight: 500;
+  transition: 0.3s ease;
+  box-shadow: 0 0 5px #A855F7;
+}
+
+.live-btn:hover {
+  background: #A855F7;
+  color: #0B0F14;
+  box-shadow: 0 0 10px #A855F7, 0 0 20px #A855F7;
+}
+
+/* ================= SKILLS ================= */
 
 .skills-container {
   display: grid;
@@ -287,7 +324,6 @@ section {
   border: 1px solid #1E293B;
   border-radius: 14px;
   color: #94A3B8;
-  white-space: nowrap;
 }
 
 .contact-box:hover {

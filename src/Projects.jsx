@@ -9,6 +9,39 @@ const Projects = () => {
 
       <div className="projects-container">
 
+        {/* EASY CYCLE APPLICATION */}
+          <div className="project-card">
+            <h3 className="project-title">EasyCycle</h3>
+
+            <p className="project-description">
+              A responsive full-stack web application built to streamline bicycle
+              sharing within college campuses. It helps students easily borrow a
+              cycle when theirs is unavailable or during their initial days at the
+              college, while also allowing others to lend their unused cycles,
+              improving accessibility and resource sharing among students.
+            </p>
+
+            <div className="project-buttons">
+              <a
+                href="https://github.com/kumarsunny-nitian/Easycycle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="github-btn"
+              >
+                GitHub
+              </a>
+
+              <a
+                href="https://easycycle-wmcg.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="live-btn"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
         {/* BLOG APPLICATION */}
         <div className="project-card">
           <h3 className="project-title">Blog Application</h3>
