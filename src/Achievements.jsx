@@ -49,7 +49,7 @@ const Achievements = () => {
           </p>
 
           <a
-            href="https://drive.google.com/uc?export=download&id=1op7cIiVhhy6u3pgYJNDAnmT4tbToobLc"
+            href="https://drive.google.com/file/d/1ff8l4m2TcqNeVRjQKS7pw6F2xn_Kk6XQ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="leetcode-link"
@@ -68,7 +68,7 @@ const Achievements = () => {
           </p>
 
           <a
-            href="https://drive.google.com/uc?export=download&id=1Yy7IoFA7wreK9Oux8siM0xX9fGy4GTfz"
+            href="https://drive.google.com/file/d/1U-Nh931Lk_E3jZU8lEAsEXwfleXBxD2_/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="leetcode-link"
