@@ -29,14 +29,14 @@ const Achievements = () => {
             Solved 200+ DSA problems with strong focus on arrays, strings, and optimization techniques.
           </p>
 
-          <a
-            href="https://leetcode.com/u/123CS0518/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="leetcode-link"
+          <button
+            className="action-btn"
+            onClick={() =>
+              window.open("https://leetcode.com/u/123CS0518/", "_blank")
+            }
           >
-            View LeetCode Profile →
-          </a>
+            View Profile
+          </button>
         </div>
 
         {/* SUPERVISED LEARNING CERTIFICATE */}
@@ -48,14 +48,17 @@ const Achievements = () => {
             Completed course on supervised machine learning techniques.
           </p>
 
-          <a
-            href="https://drive.google.com/file/d/1ff8l4m2TcqNeVRjQKS7pw6F2xn_Kk6XQ/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="leetcode-link"
+          <button
+            className="action-btn"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1ff8l4m2TcqNeVRjQKS7pw6F2xn_Kk6XQ/view?usp=sharing",
+                "_blank"
+              )
+            }
           >
-            View Certificate →
-          </a>
+            View Certificate
+          </button>
         </div>
 
         {/* UNSUPERVISED LEARNING CERTIFICATE */}
@@ -67,14 +70,17 @@ const Achievements = () => {
             Completed course on unsupervised machine learning techniques.
           </p>
 
-          <a
-            href="https://drive.google.com/file/d/1U-Nh931Lk_E3jZU8lEAsEXwfleXBxD2_/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="leetcode-link"
+          <button
+            className="action-btn"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1U-Nh931Lk_E3jZU8lEAsEXwfleXBxD2_/view?usp=sharing",
+                "_blank"
+              )
+            }
           >
-            View Certificate →
-          </a>
+            View Certificate
+          </button>
         </div>
 
         {/* CLUB MEMBERSHIPS */}
