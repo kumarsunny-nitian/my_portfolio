@@ -26,7 +26,7 @@ const Achievements = () => {
           </h3>
 
           <p className="edu-detail">
-            Solved 180+ problems on LeetCode
+            Solved 200+ DSA problems with strong focus on arrays, strings, and optimization techniques.
           </p>
 
           <a
@@ -36,6 +36,44 @@ const Achievements = () => {
             className="leetcode-link"
           >
             View LeetCode Profile →
+          </a>
+        </div>
+
+        {/* SUPERVISED LEARNING CERTIFICATE */}
+        <div className="education-card">
+          <h3 className="edu-sub">
+            Supervised Learning Certificate
+          </h3>
+          <p className="edu-detail">
+            Completed course on supervised machine learning techniques.
+          </p>
+
+          <a
+            href="https://drive.google.com/uc?export=download&id=1op7cIiVhhy6u3pgYJNDAnmT4tbToobLc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="leetcode-link"
+          >
+            View Certificate →
+          </a>
+        </div>
+
+        {/* UNSUPERVISED LEARNING CERTIFICATE */}
+        <div className="education-card">
+          <h3 className="edu-sub">
+            Unsupervised Learning Certificate
+          </h3>
+          <p className="edu-detail">
+            Completed course on unsupervised machine learning techniques.
+          </p>
+
+          <a
+            href="https://drive.google.com/uc?export=download&id=1Yy7IoFA7wreK9Oux8siM0xX9fGy4GTfz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="leetcode-link"
+          >
+            View Certificate →
           </a>
         </div>
 
