@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer style={styles.footer}>
-      <p>© 2026 Sunny Kumar — Built with React</p>
+      <p>© 2026 Sunny Kumar • All Rights Reserved</p>
     </footer>
   );
 };

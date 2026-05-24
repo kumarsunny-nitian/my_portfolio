@@ -1,38 +1,123 @@
 import React from "react";
+import {
+  FaPython,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaGithub,
+} from "react-icons/fa";
+
+import {
+  SiCplusplus,
+  SiExpress,
+  SiMongodb,
+  SiNumpy,
+  SiPandas,
+  SiScikitlearn,
+  SiJupyter,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
     <section id="skills">
       <h2 className="section-title">
-        02 — <span>Tech Stack</span>
+        02 — <span>Skills & Technologies</span>
       </h2>
 
-      <div className="skills-container">
+      <div className="skills-grid">
 
         {/* LANGUAGES */}
-        <div className="skill-card">
-          <h3 className="skill-title">Languages</h3>
-          <p>C++, Python, JavaScript</p>
+        <div className="skills-box">
+          <h3 className="skills-heading">Languages</h3>
+
+          <div className="skills-items">
+            <div className="skill-item">
+              <SiCplusplus className="skill-icon" />
+              <span>C++</span>
+            </div>
+
+            <div className="skill-item">
+              <FaPython className="skill-icon" />
+              <span>Python</span>
+            </div>
+
+            <div className="skill-item">
+              <FaJs className="skill-icon" />
+              <span>JavaScript</span>
+            </div>
+          </div>
         </div>
 
         {/* WEB DEVELOPMENT */}
-        <div className="skill-card">
-          <h3 className="skill-title">Web Development</h3>
-          <p>React, Node.js, Express, MongoDB</p>
+        <div className="skills-box">
+          <h3 className="skills-heading">Web Development</h3>
+
+          <div className="skills-items">
+            <div className="skill-item">
+              <FaReact className="skill-icon" />
+              <span>ReactJs</span>
+            </div>
+
+            <div className="skill-item">
+              <FaNodeJs className="skill-icon" />
+              <span>NodeJs</span>
+            </div>
+
+            <div className="skill-item">
+              <SiExpress className="skill-icon" />
+              <span>ExpressJs</span>
+            </div>
+
+            <div className="skill-item">
+              <SiMongodb className="skill-icon" />
+              <span>MongoDB</span>
+            </div>
+          </div>
         </div>
 
-        {/* DATA & ANALYSIS */}
-        <div className="skill-card">
-          <h3 className="skill-title">Data & Analysis</h3>
-          <p>
-            Jupyter Notebook, NumPy, Pandas, Matplotlib, Seaborn
-          </p>
+        {/* DATA SCIENCE & ML */}
+        <div className="skills-box">
+          <h3 className="skills-heading">Data Science & ML</h3>
+
+          <div className="skills-items">
+            <div className="skill-item">
+              <SiNumpy className="skill-icon" />
+              <span>NumPy</span>
+            </div>
+
+            <div className="skill-item">
+              <SiPandas className="skill-icon" />
+              <span>Pandas</span>
+            </div>
+
+            <div className="skill-item">
+              <SiScikitlearn className="skill-icon" />
+              <span>Scikit-learn</span>
+            </div>
+
+            <div className="skill-item">
+              <SiJupyter className="skill-icon" />
+              <span>Jupyter</span>
+            </div>
+          </div>
         </div>
 
         {/* TOOLS */}
-        <div className="skill-card">
-          <h3 className="skill-title">Tools</h3>
-          <p>GitHub, VS Code, Git</p>
+        <div className="skills-box">
+          <h3 className="skills-heading">Tools</h3>
+
+          <div className="skills-items">
+            <div className="skill-item">
+              <FaGithub className="skill-icon" />
+              <span>GitHub</span>
+            </div>
+
+            <div className="skill-item">
+              <FaGitAlt className="skill-icon" />
+              <span>Git</span>
+            </div>
+          </div>
         </div>
 
       </div>

@@ -19,7 +19,7 @@ const Education = () => {
             National Institute of Technology, Rourkela
           </p>
           <p className="edu-detail">
-            CGPA: 6.67 | Currently Pursuing
+            CGPA: 6.75 | Currently Pursuing
           </p>
         </div>
 

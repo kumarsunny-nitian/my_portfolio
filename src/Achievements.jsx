@@ -19,20 +19,48 @@ const Achievements = () => {
           </p>
         </div>
 
-        {/* COMPETITIVE PROGRAMMING */}
+        {/* LEETCODE */}
         <div className="education-card">
           <h3 className="edu-sub">
-            Competitive Programming
+            LeetCode
           </h3>
 
           <p className="edu-detail">
             Solved 200+ DSA problems with strong focus on arrays, strings, and optimization techniques.
           </p>
 
+          <p className="edu-detail">
+            Current Rating: <strong>1512</strong>
+          </p>
+
           <button
             className="action-btn"
             onClick={() =>
               window.open("https://leetcode.com/u/123CS0518/", "_blank")
+            }
+          >
+            View Profile
+          </button>
+        </div>
+
+        {/* CODECHEF */}
+        <div className="education-card">
+          <h3 className="edu-sub">
+            CodeChef
+          </h3>
+
+          <p className="edu-detail">
+            Practicing competitive programming and improving problem-solving skills through coding contests.
+          </p>
+
+          <p className="edu-detail">
+            Current Rating: <strong>1277</strong>
+          </p>
+
+          <button
+            className="action-btn"
+            onClick={() =>
+              window.open("https://www.codechef.com/users/sunnykry_31", "_blank")
             }
           >
             View Profile

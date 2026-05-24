@@ -11,9 +11,16 @@ const Experience = () => {
 
         {/* NITRIMUN */}
         <div className="experience-card">
-          <h3 className="experience-title">
-            Coordinator — NITRIMUN
-          </h3>
+          <div className="experience-top">
+            <h3 className="experience-title">
+              Coordinator — NITRIMUN
+            </h3>
+
+            <span className="experience-badge">
+              Leadership
+            </span>
+          </div>
+
           <p className="experience-desc">
             Managed events, delegates, and logistics ensuring smooth execution
             while coordinating teams and maintaining efficient communication.
@@ -22,9 +29,16 @@ const Experience = () => {
 
         {/* ACTOMANIA */}
         <div className="experience-card">
-          <h3 className="experience-title">
-            Team Member — Actomania Club
-          </h3>
+          <div className="experience-top">
+            <h3 className="experience-title">
+              Team Member — Actomania Club
+            </h3>
+
+            <span className="experience-badge">
+              Teamwork
+            </span>
+          </div>
+
           <p className="experience-desc">
             Collaborated in cultural performances and event organization,
             strengthening teamwork, creativity, and communication skills.
