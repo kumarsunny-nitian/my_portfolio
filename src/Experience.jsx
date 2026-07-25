@@ -8,43 +8,40 @@ const Experience = () => {
       </h2>
 
       <div className="experience-container">
-
-        {/* NITRIMUN */}
         <div className="experience-card">
           <div className="experience-top">
-            <h3 className="experience-title">
-              Coordinator — NITRIMUN
-            </h3>
+            <div>
+              <h3 className="experience-title">
+                Full Stack Developer Intern
+              </h3>
 
-            <span className="experience-badge">
-              Leadership
+              <p className="experience-company">
+                Significant Infotech
+              </p>
+            </div>
+
+            <span className="experience-duration">
+              May 2026 – July 2026
             </span>
           </div>
 
-          <p className="experience-desc">
-            Managed events, delegates, and logistics ensuring smooth execution
-            while coordinating teams and maintaining efficient communication.
-          </p>
+          <ul className="experience-list">
+            <li>
+              Developed and maintained responsive full-stack web applications
+              using <span>React.js</span>, <span>Node.js</span>,
+              <span> Express.js</span>, and integrated
+              <span> MongoDB/MySQL</span> databases with
+              <span> RESTful APIs</span>.
+            </li>
+
+            <li>
+              Collaborated with the development team to build, test, and deploy
+              scalable applications while contributing to frontend development,
+              backend services, and database integration following industry
+              best practices.
+            </li>
+          </ul>
         </div>
-
-        {/* ACTOMANIA */}
-        <div className="experience-card">
-          <div className="experience-top">
-            <h3 className="experience-title">
-              Team Member — Actomania Club
-            </h3>
-
-            <span className="experience-badge">
-              Teamwork
-            </span>
-          </div>
-
-          <p className="experience-desc">
-            Collaborated in cultural performances and event organization,
-            strengthening teamwork, creativity, and communication skills.
-          </p>
-        </div>
-
       </div>
     </section>
   );

@@ -9,16 +9,22 @@ const Contact = () => {
 
       <div className="contact-box-container">
 
-        <a href="mailto:sunnykumarrasulla@gmail.com" className="contact-box">
+        {/* Email */}
+        <a
+          href="mailto:sunnykumarrasulla@gmail.com"
+          className="contact-box"
+        >
           <i className="fa-solid fa-envelope"></i>
           <span>sunnykumarrasulla@gmail.com</span>
         </a>
 
-        <a href="tel:+918051962677" className="contact-box">
-          <i className="fa-solid fa-phone"></i>
-          <span>+91 8051962677</span>
-        </a>
+        {/* Location */}
+        <div className="contact-box">
+          <i className="fa-solid fa-location-dot"></i>
+          <span>Barh, Patna, Bihar</span>
+        </div>
 
+        {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/sunny-kumar-529748316/"
           target="_blank"
@@ -29,6 +35,7 @@ const Contact = () => {
           <span>LinkedIn</span>
         </a>
 
+        {/* Facebook */}
         <a
           href="https://www.facebook.com/kumar.sunny.977631/"
           target="_blank"
@@ -39,6 +46,7 @@ const Contact = () => {
           <span>Facebook</span>
         </a>
 
+        {/* Instagram */}
         <a
           href="https://www.instagram.com/sunny_kumar_.yadav/"
           target="_blank"

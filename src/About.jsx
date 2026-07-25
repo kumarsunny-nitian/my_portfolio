@@ -35,7 +35,7 @@ const About = () => {
             using the{" "}
             <span className="highlight">MERN stack</span> and possess a
             strong foundation in Data Structures and Algorithms, with
-            200+ problems solved on LeetCode.
+            240+ problems solved on LeetCode.
           </p>
 
           <p className="about-description">
@@ -60,39 +60,46 @@ const About = () => {
           </p>
 
           {/* CARDS */}
-          <div className="about-cards">
+          {/* CARDS */}
+<div className="about-cards">
 
-            <div className="about-card">
-              <h3 className="card-title gradient-one">
-                Software Development
-              </h3>
+  <div className="about-card">
+    <i className="fa-solid fa-laptop-code card-icon"></i>
 
-              <p className="card-text">
-                Scalable and efficient applications.
-              </p>
-            </div>
+    <h3 className="card-title gradient-one">
+      Full Stack
+    </h3>
 
-            <div className="about-card">
-              <h3 className="card-title gradient-two">
-                Problem Solving
-              </h3>
+    <p className="card-text">
+      React • Node • MongoDB
+    </p>
+  </div>
 
-              <p className="card-text">
-                Strong DSA foundation.
-              </p>
-            </div>
+  <div className="about-card">
+    <i className="fa-solid fa-code card-icon"></i>
 
-            <div className="about-card">
-              <h3 className="card-title gradient-three">
-                AI & ML
-              </h3>
+    <h3 className="card-title gradient-two">
+      Problem Solving
+    </h3>
 
-              <p className="card-text">
-                Data analysis and machine learning basics.
-              </p>
-            </div>
+    <p className="card-text">
+      240+ LeetCode
+    </p>
+  </div>
 
-          </div>
+  <div className="about-card">
+    <i className="fa-solid fa-robot card-icon"></i>
+
+    <h3 className="card-title gradient-three">
+      AI & ML
+    </h3>
+
+    <p className="card-text">
+      OpenAI • Scikit-learn
+    </p>
+  </div>
+
+</div>
         </div>
       </div>
     </section>
