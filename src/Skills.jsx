@@ -1,12 +1,19 @@
 import React from "react";
 import {
-  FaPython,
+  FaHtml5,
+  FaCss3Alt,
   FaJs,
   FaReact,
   FaNodeJs,
-  FaGitAlt,
+  FaPython,
   FaGithub,
+  FaGitAlt,
+  FaLaptopCode,
+  FaBook,
+  FaKey,
 } from "react-icons/fa";
+
+import { MdApi } from "react-icons/md";
 
 import {
   SiCplusplus,
@@ -26,7 +33,6 @@ const Skills = () => {
       </h2>
 
       <div className="skills-grid">
-
         {/* LANGUAGES */}
         <div className="skills-box">
           <h3 className="skills-heading">Languages</h3>
@@ -117,9 +123,27 @@ const Skills = () => {
               <FaGitAlt className="skill-icon" />
               <span>Git</span>
             </div>
+
+            <div className="skill-item">
+              <FaLaptopCode className="skill-icon" /> <span>VS Code</span>
+            </div>
+
+            <div className="skill-item">
+              <FaBook className="skill-icon" />
+              <span>Jupyter Notebook</span>
+            </div>
+
+            <div className="skill-item">
+              <MdApi className="skill-icon" />
+              <span>REST APIs</span>
+            </div>
+
+            <div className="skill-item">
+              <FaKey className="skill-icon" />
+              <span>JWT Authentication</span>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
   );

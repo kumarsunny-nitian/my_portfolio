@@ -37,12 +37,12 @@ const Hero = () => {
 
         <div className="hero-buttons">
           <a
-            href="https://drive.google.com/uc?export=download&id=1oiS1J_Zi6hozXXC4i5hIUeuKUinRuH0N"
+            href="https://drive.google.com/uc?export=download&id=1tMKgH5ABF_0_Dk8MuAAGm4QL94eBSnj_"
             target="_blank"
             rel="noopener noreferrer"
             className="primary-btn"
           >
-            Download CV
+            Download Resume
           </a>
         </div>
       </div>

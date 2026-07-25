@@ -8,22 +8,23 @@ const Projects = () => {
       </h2>
 
       <div className="projects-container">
-
-        {/* EASY CYCLE APPLICATION */}
+        {/* HIREMIND-AI APPLICATION */}
         <div className="project-card">
-          <h3 className="project-title">EasyCycle</h3>
+          <h3 className="project-title">HireMind-AI</h3>
 
           <p className="project-description">
-            A responsive full-stack web application built to streamline bicycle
-            sharing within college campuses. It helps students easily borrow a
-            cycle when theirs is unavailable or during their initial days at the
-            college, while also allowing others to lend their unused cycles,
-            improving accessibility and resource sharing among students.
+            An AI-powered full-stack recruitment platform that enables
+            recruiters to post jobs and candidates to apply with resume uploads.
+            It features JWT-based authentication, role-based access control, AI
+            resume analysis, ATS scoring, resume parsing, intelligent job
+            matching, and AI-generated interview questions. Built with the MERN
+            stack, Redis, BullMQ, Cloudinary, and OpenAI API to deliver a modern
+            and scalable hiring experience.
           </p>
 
           <div className="project-buttons">
             <a
-              href="https://github.com/kumarsunny-nitian/Easycycle"
+              href="https://github.com/kumarsunny-nitian/HireMind-AI"
               target="_blank"
               rel="noopener noreferrer"
               className="github-btn"
@@ -32,7 +33,7 @@ const Projects = () => {
             </a>
 
             <a
-              href="https://easycycle-wmcg.vercel.app"
+              href="https://hire-mind-ai-beta.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="live-btn"
@@ -42,25 +43,36 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* BLOG APPLICATION */}
+        {/* WHATSAPP CHAT ANALYZER */}
         <div className="project-card">
-          <h3 className="project-title">Blog Application</h3>
+          <h3 className="project-title">WhatsApp Chat Analyzer</h3>
 
           <p className="project-description">
-            A full-stack CRUD blog platform that enables users to create,
-            edit, view, and delete blog posts using RESTful APIs.
-            Built with Node.js, Express, MongoDB, and EJS following
-            clean MVC architecture and efficient database handling.
+            An AI-powered WhatsApp Chat Analyzer that provides detailed insights
+            into chat activity, including message statistics, user activity,
+            word frequency, emoji analysis, and interactive visualizations.
+            Built with Python, Streamlit, Pandas, Matplotlib, and WordCloud to
+            transform exported WhatsApp chats into meaningful analytics through
+            an intuitive web interface.
           </p>
 
           <div className="project-buttons">
             <a
-              href="https://github.com/kumarsunny-nitian/Blog-App"
+              href="https://github.com/kumarsunny-nitian/WhatsApp-Chat-Analyzer"
               target="_blank"
               rel="noopener noreferrer"
               className="github-btn"
             >
               GitHub
+            </a>
+
+            <a
+              href="https://sunny-whatsapp-chat-analyzer.streamlit.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="live-btn"
+            >
+              Live Demo
             </a>
           </div>
         </div>
@@ -95,7 +107,6 @@ const Projects = () => {
             </a>
           </div>
         </div>
-
       </div>
     </section>
   );
